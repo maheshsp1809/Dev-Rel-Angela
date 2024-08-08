@@ -1,0 +1,21 @@
+/* h1,h2 can be classes or can be ids while combining se;ectors */
+h1,h2{
+    color:blueviolet;
+    
+}
+
+/* parent > child * 1 level deep applies to siblings also*/
+.box > .done {
+    color:firebrick;
+}
+/* all levels of descendenrs unlinke above which is 1 level direct descendent */
+.box li{
+    color:greenyellow;
+}
+/* selector chaining not descendant */
+li.done{
+    color:rgb(67, 67, 168);
+}
+ul > p.done{
+    font-size: 0.5rem;
+}

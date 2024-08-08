@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+  }
+  div {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Caveat", cursive;
+  }
+  img {
+    border: 5px solid white;
+    width: 100%;
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    font-family: "Caveat", cursive;
+    color: white;
+  }
